@@ -5,11 +5,11 @@
     <url>https://checkit.clontz.org</url>
     <outcomes>
         <outcome>
-            <title>Sample Outcome</title>
-            <slug>EX1</slug>
-            <path>outcomes/EX1</path>
+            <title>Exponential Functions</title>
+            <slug>EL1-100</slug>
+            <path>outcomes/EL/EL1/100</path>
             <description>
-Simplify the sum of two monomials.
+I can solve exponential function.
             </description>
         </outcome>
     </outcomes>

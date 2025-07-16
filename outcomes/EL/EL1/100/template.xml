@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Answer the following questions about exponential functions</p>
+    </intro>
+    <knowl>
+        <content>
+            <p>
+                Determine which of the following tables represents an exponential function. Explain your reasoning.
+            </p>
+            <!-- {{#left}} -->
+            <p><me>
+                \begin{array}{c|c} 
+                x &amp; y \\\hline
+                {{#exp_table_rows}}
+                {{x}} &amp; {{y}} \\[0.5ex]
+                {{/exp_table_rows}}
+                \end{array}
+                \hspace{1em}
+                \begin{array}{c|c} 
+                x &amp; y \\\hline
+                {{#nonexp_table_rows}}
+                {{x}} &amp; {{y}} \\[0.5ex]
+                {{/nonexp_table_rows}}
+                \end{array}
+            </me></p>
+            <!-- {{/left}} -->
+            <!-- {{#right}} -->
+            <p><me>
+                \begin{array}{c|c} 
+                x &amp; y \\\hline
+                {{#nonexp_table_rows}}
+                {{x}} &amp; {{y}} \\[0.5ex]
+                {{/nonexp_table_rows}}
+                \end{array}
+                \hspace{1em}
+                \begin{array}{c|c} 
+                x &amp; y \\\hline
+                {{#exp_table_rows}}
+                {{x}} &amp; {{y}} \\[0.5ex]
+                {{/exp_table_rows}}
+                \end{array}
+            </me></p>
+            <!-- {{/right}} -->
+        </content>
+        <outtro>
+           <!-- <p><m>{\large Answer}</m></p> -->
+            <p>
+                The {{#left}}left{{/left}}{{#right}}right{{/right}}
+                table represents an exponential function, but the
+                {{#left}}right{{/left}}{{#right}}left{{/right}}
+                table does not.
+            </p>
+        </outtro>
+    </knowl>
+    <knowl>
+            <content>
+                <p>Evaluate the following exponential function at <m>{{fname1}}({{val1}})</m> for <m>{{fname1}}(x)={{function1}}</m></p>
+            </content>
+            <outtro>
+               <!-- <p><m>{\large Answer}</m></p> -->
+                <p><m>{{evaluate1}}</m></p>
+            </outtro>
+        </knowl>
+        <knowl>
+            <content>
+                <p>Evaluate the following exponential function at <m>{{fname2}}({{val2}})</m> for <m>{{fname2}}(x)={{function2}}</m></p>
+            </content>
+            <outtro>
+               <!-- <p><m>{\large Answer}</m></p> -->
+                <p><m>{{evaluate2}}</m></p>
+            </outtro>
+        </knowl>
+      
+    <knowl>
+        <content>
+            <p>
+            Find an equation for an exponential function passing through the points <m>{{point1}}</m> and <m>{{point2}}</m>.
+            </p>
+        </content>
+        <outtro>
+           <!-- <p><m>{\large Answer}</m></p> -->
+            <p>
+                <m>{{exponential_function}}</m>
+            </p>
+        </outtro>
+    </knowl>
+    
+</knowl>
