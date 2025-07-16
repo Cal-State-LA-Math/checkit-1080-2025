@@ -60,5 +60,45 @@ Exponential and Logarithmic function.
 Exponential and Logarithmic function.
             </description>
         </outcome>
+        <outcome>
+            <title>Solving Exponential and Logarithmic Models</title>
+            <slug>EL7-100</slug>
+            <path>outcomes/EL/EL7/100</path>
+            <description>
+I can model with Exponential and Logarithmic function.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Solving Exponential and Logarithmic Models</title>
+            <slug>EL7-251</slug>
+            <path>outcomes/EL/EL7/251</path>
+            <description>
+I can model with Exponential and Logarithmic function.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Solving Exponential and Logarithmic Models</title>
+            <slug>EL7-252</slug>
+            <path>outcomes/EL/EL7/252</path>
+            <description>
+I can model with Exponential and Logarithmic function.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Solving Exponential and Logarithmic Models</title>
+            <slug>EL7-253</slug>
+            <path>outcomes/EL/EL7/253</path>
+            <description>
+I can model with Exponential and Logarithmic function.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Solving Exponential and Logarithmic Models</title>
+            <slug>EL7-254</slug>
+            <path>outcomes/EL/EL7/254</path>
+            <description>
+I can model with Exponential and Logarithmic function.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
