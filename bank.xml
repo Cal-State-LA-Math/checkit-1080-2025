@@ -28,5 +28,13 @@ I can graph exponential function.
 Logarithmic function.
             </description>
         </outcome>
+        <outcome>
+            <title>Graphs of Logarithmic Functions</title>
+            <slug>EL4-100</slug>
+            <path>outcomes/EL/EL4/100</path>
+            <description>
+I can graph Logarithmic function.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
