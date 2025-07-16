@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Solve the following equations using the rules and properties of exponents and logarithms</p></intro>
+    <!-- {{#eqs}} -->
+    <knowl>
+        <content>
+            <p>
+                Solve <m>{{eq}}</m> for <m>{{var}}</m>.  
+            </p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>
+                <m>{{var}} = {{sol}}</m>
+            </p>
+        </outtro>
+    </knowl>
+    <!-- {{/eqs}} -->
+      
+</knowl>

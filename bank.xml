@@ -44,5 +44,21 @@ I can graph Logarithmic function.
 I can use the properties of Logarithmic function.
             </description>
         </outcome>
+        <outcome>
+            <title>Exponential and Logarithmic Functions</title>
+            <slug>EL6-100</slug>
+            <path>outcomes/EL/EL6/100</path>
+            <description>
+Exponential and Logarithmic function.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Exponential and Logarithmic Functions</title>
+            <slug>EL6-251</slug>
+            <path>outcomes/EL/EL6/251</path>
+            <description>
+Exponential and Logarithmic function.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
