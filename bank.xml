@@ -100,5 +100,13 @@ I can model with Exponential and Logarithmic function.
 I can model with Exponential and Logarithmic function.
             </description>
         </outcome>
+        <outcome>
+            <title>Linear Equations and Inequalities</title>
+            <slug>EQ1-100</slug>
+            <path>outcomes/EQ/EQ1/100</path>
+            <description>
+I can solve linear equations and inequalities.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
