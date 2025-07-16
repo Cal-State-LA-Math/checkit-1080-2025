@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>
+            A juice vendor at the Lunar New Year market in Hanoi, Vietnam is creating a special festive blend. In Vietnam, the currency is the Vietnamese dong which is written in English as "VND". The vendor custom mixes fresh dragon fruit juice, which costs 40,000 VND per liter and mango juice, which costs 20,000 VND per liter to each customer's specification.
+        </p>
+    </intro>
+    <content>
+        <p>If you were charged <m>{{mixpart}}</m> VND per liter for {{totalamount}} liters, how much of each ingredient was used in your drink?
+        </p>
+    </content>
+    <outtro>
+        <p><m>{\large Answer}</m></p>
+        <p>
+            There was <m>{{amount_D}}</m> liters of dragon fruit juice and <m>{{amount_M}}</m> liters of mango juice in the drink
+        </p>
+    </outtro>
+    
+</knowl>

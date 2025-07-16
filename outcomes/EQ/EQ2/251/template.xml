@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>{{gname}} and her family are driving to a family reunion across the country. On the first day, {{gname}} drove {{gdist}} miles and used {{gamount}} gallons of gas. On the second day, her brother {{bname}} drove {{bdist}} and used {{bamount}} of gas in the same car. They are calculating their car's fuel efficiency to plan how much gas they'll need for the rest of the trip.</p>
+    </intro>
+        <knowl>
+            <content>         
+                <p>Write and solve a linear equation to determine the car's miles-per-gallon rate. Ropund your answer to two decimal places</p>
+            </content>
+            <outtro>
+                <p><m>{\large Answer}</m></p>
+                <p>miles-per-gallon = <m>\frac { {{gdist}} + {{bdist}} }{ {{gamount}} + {{bamount}} }</m> = {{mpg}} </p>
+            </outtro>
+                
+        </knowl>
+    
+    
+</knowl>

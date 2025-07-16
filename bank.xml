@@ -116,5 +116,37 @@ I can solve linear equations and inequalities.
 I can solve linear equations and inequalities.
             </description>
         </outcome>
+        <outcome>
+            <title>Applications of Linear Equations</title>
+            <slug>EQ2-100</slug>
+            <path>outcomes/EQ/EQ2/100</path>
+            <description>
+Applications of linear equations.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Applications of Linear Equations</title>
+            <slug>EQ2-251</slug>
+            <path>outcomes/EQ/EQ2/251</path>
+            <description>
+Applications of linear equations.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Applications of Linear Equations</title>
+            <slug>EQ2-252</slug>
+            <path>outcomes/EQ/EQ2/252</path>
+            <description>
+Applications of linear equations.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Applications of Linear Equations</title>
+            <slug>EQ2-253</slug>
+            <path>outcomes/EQ/EQ2/253</path>
+            <description>
+Applications of linear equations.
+            </description>
+        </outcome>
     </outcomes>
 </bank>

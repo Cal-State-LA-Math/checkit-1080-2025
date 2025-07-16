@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>
+            Two of the biggest exports for the country of Kenya in Africa are tea and coffee. Much of the growing of tea and coffee in the country is done by small independent farmers who have formed cooperatives. In a small farming village in Kenya, {{name}} and his cooperative are preparing soil for the next growing season. They have two types of fertilizer, Fertilizer A which contains <m>{{percent1}}\%</m> nitrogen and Fertilizer B which contains <m>{{percent2}}\%</m> nitrogen. To ensure a balanced soil composition, they creat a mixture of <m>{{part1}}\%</m> Fertilizer A and <m>{{part2}}\%</m> Fertilizer B</p></intro>
+    <content>
+        <p>What is the nitrogen percentage of the final mixture?
+        </p>
+    </content>
+    <outtro>
+        <p><m>{\large Answer}</m></p>
+        <p>
+The final mixture is <m>{{mixpercent}}\%</m> nitrogen.
+        </p>
+    </outtro>
+    
+</knowl>
