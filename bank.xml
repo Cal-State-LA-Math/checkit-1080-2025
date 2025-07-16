@@ -20,5 +20,13 @@ I can solve exponential function.
 I can graph exponential function.
             </description>
         </outcome>
+        <outcome>
+            <title>Logarithmic Functions</title>
+            <slug>EL3-100</slug>
+            <path>outcomes/EL/EL3/100</path>
+            <description>
+Logarithmic function.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
