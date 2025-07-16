@@ -12,5 +12,13 @@
 I can solve exponential function.
             </description>
         </outcome>
+        <outcome>
+            <title>Graphs of Exponential Functions</title>
+            <slug>EL2-100</slug>
+            <path>outcomes/EL/EL2/100</path>
+            <description>
+I can graph exponential function.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
