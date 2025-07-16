@@ -58,7 +58,7 @@
                 <p>Evaluate the following exponential function at <m>{{fname1}}({{val1}})</m> for <m>{{fname1}}(x)={{function1}}</m></p>
             </content>
             <outtro>
-               <!-- <p><m>{\large Answer}</m></p> -->
+                <p><m>{\large Answer}</m></p> 
                 <p><m>{{evaluate1}}</m></p>
             </outtro>
         </knowl>
@@ -67,7 +67,7 @@
                 <p>Evaluate the following exponential function at <m>{{fname2}}({{val2}})</m> for <m>{{fname2}}(x)={{function2}}</m></p>
             </content>
             <outtro>
-               <!-- <p><m>{\large Answer}</m></p> -->
+                <p><m>{\large Answer}</m></p> 
                 <p><m>{{evaluate2}}</m></p>
             </outtro>
         </knowl>
@@ -79,7 +79,7 @@
             </p>
         </content>
         <outtro>
-           <!-- <p><m>{\large Answer}</m></p> -->
+            <p><m>{\large Answer}</m></p> 
             <p>
                 <m>{{exponential_function}}</m>
             </p>
