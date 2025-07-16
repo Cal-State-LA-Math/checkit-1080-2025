@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+        <intro>
+            <p>
+                Solve the following linear equations.
+            </p>
+        </intro>
+        <knowl>
+        <content> 
+            <p> <m>{{equation}}</m></p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>
+                <m>{{variable}}={{solution_eq1}}</m>
+            </p>
+        </outtro>
+        </knowl>
+        <knowl>
+        <content>
+            <p><m>{{equation_2}}={{d_2}}</m></p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>
+                <m>{{variable_2}} = {{solution_eq2}}</m>
+            </p>
+        </outtro>
+       </knowl>
+</knowl>
