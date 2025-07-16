@@ -156,5 +156,13 @@ Applications of linear equations.
 I can solve quadratic equations.
             </description>
         </outcome> -->
+        <outcome>
+            <title>Dividing Complex Numbers</title>
+            <slug>EQ8-100</slug>
+            <path>outcomes/EQ/EQ8/100</path>
+            <description>
+I can divide complex numbers.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
