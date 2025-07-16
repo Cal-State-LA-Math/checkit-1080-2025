@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro><p>There are many ways to solve a quadratic equation, but sometimes it is better to use 
+                one particular method. For each equation, determine which method would be the best to use. You must choose a different method for each equation and cannot use a 
+                method more than once. </p></intro>
+    <knowl>
+        <content>
+            <p>
+               Indicate which method you think would be the best to use for each equation and explain why. 
+            </p>
+            <list mode="ordered">
+                <!--{{#equations}}-->
+                <item><p><m>{{equation}}</m></p></item>
+                <!--{{/equations}}-->
+            </list>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <list mode="ordered">
+                <!--{{#equations}}-->
+                <item><p>This equation is best solved by {{method}}</p></item>
+                <!--{{/equations}}-->
+            </list>
+        </outtro>
+        
+    </knowl>
+    <knowl>
+        <content>
+            <p>
+                For each of the equations above, solve using the method you stated 
+                is the best to use. Do you still think that method was the best? Why or why not?
+            </p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <list mode="ordered">
+                <!--{{#equations}}-->
+                <item><p>The solutions are <m>{{roots}}</m></p></item>
+                <!--{{/equations}}-->
+            </list>
+        </outtro> 
+    </knowl>
+    <knowl>
+        <content>
+            <p>Find all solutions of the below equation, including any complex solutions.
+                <me>{{imaginary_equation}}</me>
+            </p>
+        </content>
+        <outtro>
+            <p><m>{{imaginary_roots}}</m></p>
+        </outtro>
+    </knowl>
+    
+</knowl>

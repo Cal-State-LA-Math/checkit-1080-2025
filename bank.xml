@@ -148,5 +148,13 @@ Applications of linear equations.
 Applications of linear equations.
             </description>
         </outcome>
+       <!-- <outcome>
+            <title>Quadratic Equations</title>
+            <slug>EQ5-100</slug>
+            <path>outcomes/EQ/EQ5/100</path>
+            <description>
+I can solve quadratic equations.
+            </description>
+        </outcome> -->
     </outcomes>
 </bank>
