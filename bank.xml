@@ -268,5 +268,13 @@ Combing and composing functions.
 Combing and composing functions.
             </description>
         </outcome>
+        <outcome>
+            <title>Finding Inverses</title>
+            <slug>FN6-100</slug>
+            <path>outcomes/FN/FN6/100</path>
+            <description>
+I can find the inverse of a given function.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
