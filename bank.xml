@@ -276,5 +276,21 @@ Combing and composing functions.
 I can find the inverse of a given function.
             </description>
         </outcome>
+        <outcome>
+            <title>Slope and Average Rate of Change</title>
+            <slug>LF1-100</slug>
+            <path>outcomes/LF/LF1/100</path>
+            <description>
+Slope and average rate of change.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Slope and Average Rate of Change</title>
+            <slug>LF1-251</slug>
+            <path>outcomes/LF/LF1/251</path>
+            <description>
+Slope and average rate of change.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
