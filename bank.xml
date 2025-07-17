@@ -196,5 +196,13 @@ Introduction to Functions.
 Introduction to Functions.
             </description>
         </outcome>
+        <outcome>
+            <title>Function Notation</title>
+            <slug>FN2-100</slug>
+            <path>outcomes/FN/FN2/100</path>
+            <description>
+Introduction to Functions.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
