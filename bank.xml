@@ -332,5 +332,45 @@ Parallel and perpendicular lines.
 Parallel and perpendicular lines.
             </description>
         </outcome>
+        <outcome>
+            <title>Linear Models</title>
+            <slug>LF5-100</slug>
+            <path>outcomes/LF/LF5/100</path>
+            <description>
+Linear Models.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Linear Models</title>
+            <slug>LF5-251</slug>
+            <path>outcomes/LF/LF5/251</path>
+            <description>
+Linear Models.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Linear Models</title>
+            <slug>LF5-252</slug>
+            <path>outcomes/LF/LF5/252</path>
+            <description>
+Linear Models.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Linear Models</title>
+            <slug>LF5-253</slug>
+            <path>outcomes/LF/LF5/253</path>
+            <description>
+Linear Models.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Linear Models</title>
+            <slug>LF5-254</slug>
+            <path>outcomes/LF/LF5/254</path>
+            <description>
+Linear Models.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
