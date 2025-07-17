@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>
+            Create a polynomial in simplest terms (i.e. only one term of any given power) that meets the following conditions.
+        </p>
+        <list>
+            <item><p>Has at least five terms with non-zero coefficients.</p></item>
+            <item><p>Is degree seven or higher.</p></item>
+            <item><p>Uses at least two positive numbers as coefficients and at least two negative numbers as coefficients.</p></item>
+           <!-- <item><p>Uses at least one irrational number.</p></item> -->
+            <item><p>Uses at least one rational number between {{low}} and {{high}} that is not an integer.</p></item>
+            </list>
+        <p>
+        
+        
+        </p>
+        <p>Write your polynomial below and answer the following questions about your polynomial.</p>
+    </intro>
+    
+    
+    <knowl>
+        <content>
+            <p>
+                What is the degree of your polynomial?
+            </p>
+        </content>
+    </knowl>
+    <knowl>
+         <content>
+            <p>
+            What is the value of the constant term?
+                </p>
+        </content>
+        </knowl>
+    <knowl>
+    <content>
+        <p>
+        What is the leading coefficient?
+        </p>
+        </content>
+    </knowl>
+    <knowl>
+    <content>
+        <p>
+        What is the coefficient of the linear term?
+        </p>
+        </content>
+    </knowl>
+    <knowl>
+    <content>
+        <p>
+        What is the coefficient of the second highest degree term?
+        </p>
+        </content>
+    </knowl>
+        
+    
+    
+    
+
+        
+    
+</knowl>

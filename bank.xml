@@ -164,5 +164,21 @@ I can solve quadratic equations.
 I can divide complex numbers.
             </description>
         </outcome>
+        <outcome>
+            <title>Create a Polynimial</title>
+            <slug>EQ9-100</slug>
+            <path>outcomes/EQ/EQ9/100</path>
+            <description>
+I can create a polynomial that meets specific aspects.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Create a Polynimial</title>
+            <slug>EQ9-101</slug>
+            <path>outcomes/EQ/EQ9/101</path>
+            <description>
+I can create a polynomial that meets specific aspects.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
