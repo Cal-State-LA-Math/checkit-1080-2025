@@ -372,5 +372,13 @@ Linear Models.
 Linear Models.
             </description>
         </outcome>
+        <outcome>
+            <title>Polar Coordinates</title>
+            <slug>PC1-100</slug>
+            <path>outcomes/PC/PC1/100</path>
+            <description>
+Polar coordinates.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
