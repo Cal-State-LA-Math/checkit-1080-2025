@@ -308,5 +308,29 @@ Equations of lines.
 Equations of lines.
             </description>
         </outcome>
+        <outcome>
+            <title>Parallel and Perpendicular Lines</title>
+            <slug>LF4-100</slug>
+            <path>outcomes/LF/LF4/100</path>
+            <description>
+Parallel and perpendicular lines.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Parallel and Perpendicular Lines</title>
+            <slug>LF4-251</slug>
+            <path>outcomes/LF/LF4/251</path>
+            <description>
+Parallel and perpendicular lines.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Parallel and Perpendicular Lines</title>
+            <slug>LF4-252</slug>
+            <path>outcomes/LF/LF4/252</path>
+            <description>
+Parallel and perpendicular lines.
+            </description>
+        </outcome>
     </outcomes>
 </bank>

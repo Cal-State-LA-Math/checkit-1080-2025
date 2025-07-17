@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+        <content>
+            <p>
+                 Find an equation of the line that passes through the point <m>{{point5}}</m> 
+                 and is {{orientation2}} to the line <m>{{line}}.</m> 
+            </p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>
+                <m>{{new_line}}</m>
+            </p>
+        </outtro>
+    </knowl>
+      
+    
+</knowl>
