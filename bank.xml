@@ -292,5 +292,21 @@ Slope and average rate of change.
 Slope and average rate of change.
             </description>
         </outcome>
+        <outcome>
+            <title>Slope and Average Rate of Change</title>
+            <slug>LF2-100</slug>
+            <path>outcomes/LF/LF2/100</path>
+            <description>
+Equations of lines.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Slope and Average Rate of Change</title>
+            <slug>LF2-251</slug>
+            <path>outcomes/LF/LF2/251</path>
+            <description>
+Equations of lines.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
