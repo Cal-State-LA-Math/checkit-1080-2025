@@ -188,5 +188,13 @@ I can create a polynomial that meets specific aspects.
 Introduction to Functions.
             </description>
         </outcome>
+        <outcome>
+            <title>Intro to Functions</title>
+            <slug>FN1-251</slug>
+            <path>outcomes/FN/FN1/251</path>
+            <description>
+Introduction to Functions.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
