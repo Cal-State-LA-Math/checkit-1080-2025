@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+        <content>
+            <p>
+                For the graph of the function <m>g(x)</m> below, determine the domain, 
+                range, x-intercepts, y-intercepts, local maxima and minima, global maxima and minima, and intervals of increase/decrease. 
+            </p>
+                <p><image source="../assets/FN3-100/generated/{{__seed__}}/graph2.png" 
+                          description="An example of a graph meeting the criteria"/></p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>Features are</p>
+            <list mode="unordered">
+            {{#features2}}
+            <item><p><m>g</m> {{feature}} <m>{{result}}</m></p></item>
+            {{/features2}}
+            </list>
+        </outtro>
+    </knowl>
+</knowl>

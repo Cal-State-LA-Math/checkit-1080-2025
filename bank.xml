@@ -212,5 +212,29 @@ Introduction to Functions.
 Introduction to Functions.
             </description>
         </outcome>
+        <outcome>
+            <title>Characteristics of Functions</title>
+            <slug>FN3-101</slug>
+            <path>outcomes/FN/FN3/101</path>
+            <description>
+Introduction to Functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Characteristics of Functions</title>
+            <slug>FN3-251</slug>
+            <path>outcomes/FN/FN3/251</path>
+            <description>
+Introduction to Functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Characteristics of Functions</title>
+            <slug>FN3-252</slug>
+            <path>outcomes/FN/FN3/252</path>
+            <description>
+Introduction to Functions.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
