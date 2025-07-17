@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+        <intro>
+            <p>
+                Given <m>h(x)</m>, find <m>f(x)</m> and <m>g(x)</m> so that <m>h(x) = f(g(x))</m>.
+            </p>
+        </intro>
+            <knowl>
+                <content>
+                    <p>
+                        <m>h(x) = {{comp1}}</m>
+                    </p>
+                </content>
+                <outtro>
+                    <p><m>{\large Answer}</m></p>
+                    <p>
+                        <m>f(x) = {{f1}}</m> and <m>g(x) = {{g1}}</m>
+                    </p>
+                </outtro>
+                
+            </knowl>
+            <knowl>
+                <content>
+                    <p>
+                        <m>h(x) = {{comp2}}</m>
+                    </p>
+                </content>
+                <outtro>
+                    <p><m>{\large Answer}</m></p>
+                    <p>
+                        <m>f(x) = {{f2}}</m> and <m>g(x) = {{g2}}</m>
+                    </p>
+                </outtro>
+                
+            </knowl>
+            <knowl>
+                <content>
+                    <p>
+                        <m>h(x) = {{comp3}}</m>
+                    </p>
+                </content>
+                <outtro>
+                    <p><m>{\large Answer}</m></p>
+                    <p>
+                        <m>f(x) = {{f3}}</m> and <m>g(x) = {{g3}}</m>
+                    </p>
+                </outtro>
+                
+            </knowl>
+            
+        
+    </knowl>
+
+    
+      
+    
+</knowl>

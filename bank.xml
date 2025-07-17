@@ -244,5 +244,29 @@ Introduction to Functions.
 Introduction to Functions.
             </description>
         </outcome>
+        <outcome>
+            <title>Combining and Compsoing Functions</title>
+            <slug>FN5-100</slug>
+            <path>outcomes/FN/FN5/100</path>
+            <description>
+Combing and composing functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Combining and Compsoing Functions</title>
+            <slug>FN5-101</slug>
+            <path>outcomes/FN/FN5/101</path>
+            <description>
+Combing and composing functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Combining and Compsoing Functions (Decomposition)</title>
+            <slug>FN5-251</slug>
+            <path>outcomes/FN/FN5/251</path>
+            <description>
+Combing and composing functions.
+            </description>
+        </outcome>
     </outcomes>
 </bank>

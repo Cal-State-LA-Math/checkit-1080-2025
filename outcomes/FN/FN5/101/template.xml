@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+        <intro>
+            <p>
+                <!--{{#swap}}-->
+                Let <m>{{fname3}}(x)={{funct3}}</m> and <m>{{fname4}}(x)={{funct4}}</m>. Find the following.
+                <!--{{/swap}}-->
+                <!--{{^swap}}-->
+                Let <m>{{fname4}}(x)={{funct4}}</m> and <m>{{fname3}}(x)={{funct3}}</m>. Find the following.
+                <!--{{/swap}}-->
+            </p>
+        </intro>
+            <knowl>
+                <content>
+                    <p>
+                        <m>{{fname4}}({{fname3}}(x))</m>
+                    </p>
+                </content>
+                <outtro>
+                    <p><m>{\large Answer}</m></p>
+                    <p>
+                        <m>{{composition}}</m>
+                    </p>
+                </outtro>
+                
+            </knowl>
+            <knowl>
+                <content>
+                    <p>
+                       <m>{{fname3}}({{fname4}}({{xvalue}}))</m>
+                    </p>
+                </content>
+                <outtro>
+                    <p><m>{\large Answer}</m></p>
+                    <p>
+                        <m>{{composition_value}}</m>
+                    </p>
+                </outtro>
+                
+            </knowl>
+            
+        
+    </knowl>
+      
+    
+</knowl>
