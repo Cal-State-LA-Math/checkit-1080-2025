@@ -404,5 +404,29 @@ Polar graphs.
 Polar graphs.
             </description>
         </outcome>
+        <outcome>
+            <title>Graphs of Sin and Cos Functions</title>
+            <slug>PF1-100</slug>
+            <path>outcomes/PF/PF1/100</path>
+            <description>
+Graphs of sin and cos functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Graphs of Sin and Cos Functions</title>
+            <slug>PF1-101</slug>
+            <path>outcomes/PF/PF1/101</path>
+            <description>
+Graphs of sin and cos functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Graphs of Sin and Cos Functions</title>
+            <slug>PF1-251</slug>
+            <path>outcomes/PF/PF1/251</path>
+            <description>
+Graphs of sin and cos functions.
+            </description>
+        </outcome>
     </outcomes>
 </bank>

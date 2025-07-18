@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <!-- <knowl>
+        <content>
+            <p>Sketch the graph of the function <m>y = {{f}}(x)</m> 
+            on the period <m>[0,2\pi]</m>. On your graph, indicate the points
+            at each of the <m>x</m>-values: 
+            <m mode="display">
+            0, 
+            \frac{\pi}{2}, 
+            \pi, 
+            \frac{3\pi}{2}, 
+            2\pi
+            </m>
+            </p>
+
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>
+                <image
+                    source = "..assets/PF1-251/generated/{{__seed__}}/Show1.png"
+                    description = "a graph of one period of $y = {{f}}(x)$"
+                />
+            </p>
+        </outtro>
+    </knowl> -->
+    <knowl>
+        <intro>
+            <p>Consider the function <m>g(x) = {{A}} {{f}}( {{arg}} ) </m>.</p>
+        </intro>
+        <knowl>
+            <content>
+                <p>What is the amplitude of <m>g</m>?</p>
+            </content>
+            <outtro>
+                <p><m>{\large Answer}</m></p>
+                <p>The amplitude of <m>g</m> is <m>{{amp}}</m>.</p>
+            </outtro>
+        </knowl>
+        <knowl>
+            <content>
+                <p>What is the period of <m>g</m>?</p>
+            </content>
+            <outtro>
+                <p><m>{\large Answer}</m></p>
+                <p>The period of <m>g</m> is <m>{{T}}</m>.</p>
+            </outtro>
+        </knowl>
+        <knowl>
+            <content>
+                <p>Sketch the graph of <m>y=g(x)</m> on one period. 
+                    On your graph, indicate the <m>x</m>-values at which 
+                    <m>g</m> has maxima, minima, and zeroes.</p>
+            </content>
+            <outtro>
+                <p><m>{\large Answer}</m></p>
+            <p>
+                    <image
+                        source = "..assets/PF1-251/generated/{{__seed__}}/Show2.png"
+                        description = "a graph of one period of $y = {{g(x)}}$"
+                    /></p>
+            </outtro>
+        </knowl>
+    </knowl>
+</knowl>
