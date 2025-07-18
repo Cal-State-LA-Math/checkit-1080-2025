@@ -441,7 +441,7 @@ Inverse trig functions.
             <slug>PR1-100</slug>
             <path>outcomes/PR/PR1/100</path>
             <description>
-Inverse trig functions.
+Graphing quadratic functions.
             </description>
         </outcome>
         <outcome>
@@ -449,7 +449,47 @@ Inverse trig functions.
             <slug>PR1-251</slug>
             <path>outcomes/PR/PR1/251</path>
             <description>
-Inverse trig functions.
+IGraphing quadratic functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Quadratic Models</title>
+            <slug>PR2-100</slug>
+            <path>outcomes/PR/PR2/100</path>
+            <description>
+Solving quadratic models.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Quadratic Models</title>
+            <slug>PR2-251</slug>
+            <path>outcomes/PR/PR2/251</path>
+            <description>
+Solving quadratic models.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Quadratic Models</title>
+            <slug>PR2-252</slug>
+            <path>outcomes/PR/PR2/252</path>
+            <description>
+Solving quadratic models.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Quadratic Models</title>
+            <slug>PR2-253</slug>
+            <path>outcomes/PR/PR2/253</path>
+            <description>
+Solving quadratic models.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Quadratic Models</title>
+            <slug>PR2-254</slug>
+            <path>outcomes/PR/PR2/254</path>
+            <description>
+Solving quadratic models.
             </description>
         </outcome>
     </outcomes>
