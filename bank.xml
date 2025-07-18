@@ -380,5 +380,29 @@ Linear Models.
 Polar coordinates.
             </description>
         </outcome>
+        <outcome>
+            <title>Polar Graphs</title>
+            <slug>PC2-100</slug>
+            <path>outcomes/PC/PC2/100</path>
+            <description>
+Polar graphs.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Polar Graphs</title>
+            <slug>PC2-251</slug>
+            <path>outcomes/PC/PC2/251</path>
+            <description>
+Polar graphs.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Polar Graphs</title>
+            <slug>PC2-252</slug>
+            <path>outcomes/PC/PC2/252</path>
+            <description>
+Polar graphs.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
