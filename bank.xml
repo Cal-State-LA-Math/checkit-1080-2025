@@ -612,5 +612,21 @@ I can solve trig equations.
 I can solve trig equations.
             </description>
         </outcome>
+        <outcome>
+            <title>Law of Sines</title>
+            <slug>TE4-100</slug>
+            <path>outcomes/TE/TE4/100</path>
+            <description>
+I can use the Law of Sines.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Law of Cosines</title>
+            <slug>TE4-101</slug>
+            <path>outcomes/TE/TE4/101</path>
+            <description>
+I can use the Law of Cosines.
+            </description>
+        </outcome>
     </outcomes>
 </bank>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Suppose the triangle <m>\triangle ABC</m> has angles <m>\angle B = {{B}}^{\circ}</m>, <m>\angle C = {{C}}^{\circ} </m> and side a = <m>{{a}}</m> inches.</p>
+        <p>A note about mathematical convention. For both the Law of Sines and Law of Cosines, mathematicians label each side with a lower case letter that matches the upper case letter of the angle opposite the side, as shown in this example triangle.</p>
+    </intro>
+    <knowl>
+        <content>
+        <p>Draw a triangle representing the information above. Label all sides and angles</p>
+    </content>
+    <outtro>
+        <p><m> {\large Answer}</m></p>
+        <p>Not coded yet</p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Find the angle <m>\angle A</m></p>
+        </content>
+        <outtro>
+            <p><m> {\large Answer}</m></p>
+            <p><m>\angle A = {{A}}^{\circ}</m>.</p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Find the length of side b. Round your answer to two decimal places.</p>
+        </content>
+        <outtro>
+            <p><m> {\large Answer}</m></p>
+            <p>b = <m>{{b}}</m> = <m>{{B_ans}}</m>inches</p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Find the length of side c. Round your answer to two decimal places.</p>
+        </content>
+        <outtro>
+           <p><m> {\large Answer}</m></p>
+            <p>c = <m>{{c}}</m> = <m>{{C_ans}}</m>inches</p>
+        </outtro>
+    </knowl>
+</knowl>
