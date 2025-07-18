@@ -524,5 +524,21 @@ Graphs of polynomial functions.
 Polynomial long division.
             </description>
         </outcome>
+        <outcome>
+            <title>Zeros of Polynomial Functions</title>
+            <slug>PR5-100</slug>
+            <path>outcomes/PR/PR5/100</path>
+            <description>
+Zeros of polynomial functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Zeros of Polynomial Functions</title>
+            <slug>PR5-101</slug>
+            <path>outcomes/PR/PR5/101</path>
+            <description>
+Zeros of polynomial functions.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
