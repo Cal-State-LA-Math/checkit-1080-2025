@@ -780,5 +780,13 @@ Right triangle trig: finding sides.
 Right triangle trig: finding angles.
             </description>
         </outcome>
+        <outcome>
+            <title>Unit Cirle: Trig Functions</title>
+            <slug>TR5-100</slug>
+            <path>outcomes/TR/TR5/100</path>
+            <description>
+RUnit circle and trig functions.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
