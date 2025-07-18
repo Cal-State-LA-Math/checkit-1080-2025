@@ -596,5 +596,21 @@ I can solve trig equations using identities.
 I can solve trig equations using identities.
             </description>
         </outcome>
+        <outcome>
+            <title>Solving Trig Equations</title>
+            <slug>TE3-100</slug>
+            <path>outcomes/TE/TE3/100</path>
+            <description>
+I can solve trig equations.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Solving Trig Equations</title>
+            <slug>TE3-251</slug>
+            <path>outcomes/TE/TE3/251</path>
+            <description>
+I can solve trig equations.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
