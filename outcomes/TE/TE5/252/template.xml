@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Use the information given and your knowledge of trig ratios to answer the question.</p>
+    </intro>
+    <knowl>
+        <content>
+            <p>You have been hired by a landscaping company to estimate the height of an old oak tree in a park. you know you are standing {{H_dist}} feet away from the base of the tree, and when you use your angle finder tool, it shows the andle of elevation to the top of the tree is <m>{{angle}}^{\circ}</m>. How tall is the tree? Explain how you figured it out. Show all work and give your answer rounded to two decimal places. </p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>Use <m>tan( {{angle}} )</m> to find the height of the tree. The tree is {{high}} feet tall. </p>
+        </outtro>
+    </knowl>
+        
+</knowl>

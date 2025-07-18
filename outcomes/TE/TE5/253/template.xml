@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Use the information given and your knowledge of trig ratios to answer the question.</p>
+    </intro>
+    <knowl>
+        <content>
+            <p>You are practicing drone flight maneuvers for a certification test. Your spotter is standing {{H_dist}} meters away from the vertical line directly below your drone. They tell you they have to look up at a <m>{{angle}}^{\circ}</m> angle to see it. How high is the drone flying? Explain how you figured it out. Show all work and give your answer rounded to two decimal places. </p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>Use <m>tan( {{angle}} )</m> to find the height of the drone. The drone is flying at a height of {{high}} meters. </p>
+        </outtro>
+    </knowl>
+        
+</knowl>

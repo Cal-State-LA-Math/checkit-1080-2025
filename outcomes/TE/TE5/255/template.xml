@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Use the information given and your knowledge of trig ratios to answer the question.</p>
+    </intro>
+    <knowl>
+        <content>
+            <p> You are helping a mountain search and rescue team plan a drone flight path. From your location, you need to estimate the height of a cliff face to make sure your drone can fly above it. The drone operator is {{H_dist}} meters from the base of of the cliff and measures a <m>{{angle}}^{\circ}</m> angle to the top of the cliff face. How tall is the cliff? Explain how you figured it out. Show all work and give your answer rounded to two decimal places. </p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>Use <m>tan( {{angle}} )</m> to find the height of the cliff. The cliff is {{high}} meters tall. </p>
+        </outtro>
+    </knowl>
+        
+</knowl>

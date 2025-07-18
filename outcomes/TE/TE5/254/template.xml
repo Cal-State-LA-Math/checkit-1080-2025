@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Use the information given and your knowledge of trig ratios to answer the question.</p>
+    </intro>
+    <knowl>
+        <content>
+            <p>You are working on a film set. The director asks you to figure out how high the camera crane should lift a camera to get a dramatic angle looking down at a specific distance. You stand {{H_dist}} feet from the crane's base and measure a <m>{{angle}}^{\circ}</m> angle up to where the camera would be. How high does the camera need to be? Explain how you figured it out. Show all work and give your answer rounded to two decimal places. </p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>Use <m>tan( {{angle}} )</m> to find the height of the camera. The camera needs to be {{high}} feet high. </p>
+        </outtro>
+    </knowl>
+        
+</knowl>

@@ -628,5 +628,53 @@ I can use the Law of Sines.
 I can use the Law of Cosines.
             </description>
         </outcome>
+        <outcome>
+            <title>Trigonomentric Applications</title>
+            <slug>TE5-100</slug>
+            <path>outcomes/TE/TE5/100</path>
+            <description>
+I can solve trig applications models.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Trigonomentric Applications - Angle Known</title>
+            <slug>TE5-251</slug>
+            <path>outcomes/TE/TE5/251</path>
+            <description>
+I can solve trig applications models.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Trigonomentric Applications - Angle Known</title>
+            <slug>TE5-252</slug>
+            <path>outcomes/TE/TE5/252</path>
+            <description>
+I can solve trig applications models.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Trigonomentric Applications - Angle Known</title>
+            <slug>TE5-253</slug>
+            <path>outcomes/TE/TE5/253</path>
+            <description>
+I can solve trig applications models.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Trigonomentric Applications - Angle Known</title>
+            <slug>TE5-254</slug>
+            <path>outcomes/TE/TE5/254</path>
+            <description>
+I can solve trig applications models.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Trigonomentric Applications - Angle Known</title>
+            <slug>TE5-255</slug>
+            <path>outcomes/TE/TE5/255</path>
+            <description>
+I can solve trig applications models.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
