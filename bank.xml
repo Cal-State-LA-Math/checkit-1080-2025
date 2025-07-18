@@ -540,5 +540,13 @@ Zeros of polynomial functions.
 Zeros of polynomial functions.
             </description>
         </outcome>
+        <outcome>
+            <title>Graphs of Rational Functions</title>
+            <slug>PR6-100</slug>
+            <path>outcomes/PR/PR6/100</path>
+            <description>
+Graphs of rational functions.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
