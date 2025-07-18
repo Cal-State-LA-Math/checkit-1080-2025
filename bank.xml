@@ -548,5 +548,21 @@ Zeros of polynomial functions.
 Graphs of rational functions.
             </description>
         </outcome>
+        <outcome>
+            <title>Properties of Polynomial Functions</title>
+            <slug>PR7-100</slug>
+            <path>outcomes/PR/PR7/100</path>
+            <description>
+Properties of polynomial functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Properties of Polynomial Functions</title>
+            <slug>PR7-251</slug>
+            <path>outcomes/PR/PR7/251</path>
+            <description>
+Properties of polynomial functions.
+            </description>
+        </outcome>
     </outcomes>
 </bank>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p>
+            The graph of a certain polynomial function <m>f(x)</m> is shown below (graph may not be to scale).
+         
+        </p>
+         <p><image source="../assets/PR7-251/generated/{{__seed__}}/polynomial.png" 
+                   description="Graph of the polynomial f(x)"/></p>
+        
+    </intro>
+    <knowl>
+    <content><p>Based on the graph, how many turning points does the function have? Explain how the graph tells you this.
+            </p>
+        </content>
+    <outtro>
+        <p><m>{\large Answer}</m></p>
+        <p>The function has xx turning points. Explanation needed.</p>
+        </outtro>
+    </knowl>
+    <knowl>
+    <content><p>Based on the graph, what is the smallest possible degree that <m>f(x)</m> could have? Explain how the graph tells you this.
+            </p>
+        </content>
+    <outtro>
+        <p><m>{\large Answer}</m></p>
+        <p>The function is at least degree {{deg}}. Explanation needed.</p>
+        </outtro>
+    </knowl>
+    <knowl>
+    <content><p>Based on the graph, what are the roots of <m>f(x)</m>? Explain how the graph tells you this.
+            </p>
+        </content>
+    <outtro>
+        <p><m>{\large Answer}</m></p>
+        <p>The function has roots {{#roots}}<m>x={{r}}</m>, {{/roots}}.</p>
+        </outtro>
+    </knowl>
+    <knowl>
+    <content><p>Based on the graph's end behavior, is the leading coefficient of <m>f(x)</m> <em>positive or negative</em>? Explain how the graph tells you which.
+            </p>
+        </content>
+    <outtro>
+        <p><m>{\large Answer}</m></p>
+        <p>The leading coefficient is <em>{{lctext}}</em> for this polynomial.</p>
+        <p>This is because, as <m>x</m> increases (as we read toward the right end of its graph), the value of <m>y</m> {{lcexplain}}.</p>
+        </outtro>
+    </knowl>
+   <knowl>
+    <content><p>Based on the graph's end behavior, is the degree of <m>f(x)</m> <em>even or odd</em>? Explain how the graph tells you which.
+            </p>
+        </content>
+    <outtro>
+        <p><m>{\large Answer}</m></p>
+        <p>The degree of this polynomial must be <em>{{parity}}</em>.</p>
+        <p>We can tell because as <m>x\to-\infty</m> we have <m>f(x) \to {{lend}}</m>, and as <m>x\to\infty</m> we have <m>f(x) \to {{rend}}</m>.</p>
+        <p>Since these two end behaviors {{match}} (the <m>y</m>-values approach {{matchtwo}} infinities), this means the degree of <m>f(x)</m> is {{parity}}.</p>
+        </outtro>
+    </knowl> 
+      <knowl>
+    <content><p>Use the above information, and the graph, to determine a possible formula for <m>f(x)</m>, in factored form.
+            </p>
+            <p>(You do not need to multiply/simplify your answer.)</p>
+        </content>
+    <outtro>
+        <p><m>{\large Answer}</m></p>
+        <p>A formula for this degree-<m>{{deg}}</m> polynomial function might be </p>
+        <p><me>f(x) = {{sign}}{{#facs}}({{factor}})^{ {{exponent}} }{{/facs}}.</me>
+        </p>
+        </outtro>
+    </knowl>
+    <knowl>
+    <content><p>Based your formula for <m>f(x)</m>, what are the multiplicities of each root? 
+            </p>
+        </content>
+    <outtro>
+        <p><m>{\large Answer}</m></p>
+        <p>Answers will vary.</p>
+        </outtro>
+    </knowl>
+</knowl>
