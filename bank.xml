@@ -516,5 +516,13 @@ Graphs of polynomial functions.
 Graphs of polynomial functions.
             </description>
         </outcome>
+        <outcome>
+            <title>Polynomial Long Division</title>
+            <slug>PR4-100</slug>
+            <path>outcomes/PR/PR4/100</path>
+            <description>
+Polynomial long division.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
