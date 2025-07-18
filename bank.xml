@@ -716,5 +716,29 @@ I can solve trig applications models.
 I can solve trig applications models.
             </description>
         </outcome>
+        <outcome>
+            <title>Angles</title>
+            <slug>TR1-100</slug>
+            <path>outcomes/TR/TR1/100</path>
+            <description>
+Angles.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Deg and Rad Measure</title>
+            <slug>TR1-101</slug>
+            <path>outcomes/TR/TR1/101</path>
+            <description>
+Degree and rad measurements.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Evaluating Trig Functions</title>
+            <slug>TR1-102</slug>
+            <path>outcomes/TR/TR1/102</path>
+            <description>
+Evaluating trig functions.
+            </description>
+        </outcome>
     </outcomes>
 </bank>

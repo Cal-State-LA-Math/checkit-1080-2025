@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+              <p>Complete each part below.</p>
+          </intro>
+    <knowl>
+        <content>
+            <p>Sketch the angle <m>\theta = \frac{\pi}{ {{denom}} }</m> on the unit circle. 
+            Then give the values of <m>\cos\left( \frac{\pi}{ {{denom}} } \right)</m> 
+            and <m>\sin\left( \frac{\pi}{ {{denom}} } \right)</m>.</p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+           <p>
+                <image
+                    source = "../assets/PR1/generated/{{__seed__}}/Show1.png"
+                    description = "The given first-quadrant angle"
+                />
+            </p>
+            <p>
+            The cosine of the given angle is <m>{{cosQ1}}</m>. 
+            The sine of the given angle is <m>{{sinQ1}}</m>.
+            </p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Sketch the angle <m>\theta = {{angle}} </m> on the unit circle. 
+            Explain and demonstrate how to use your answers to the 
+            previous task to find the values for the following trigonometric function 
+                <m mode="display">
+                \{{trig}}(\theta).
+                </m>
+            </p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+           <p>
+                <image
+                    source = "../assets/PR1/generated/{{__seed__}}/Show2.png"
+                    description = "The given first-quadrant angle"
+                /> 
+            </p>
+            <p><m>\{{trig}}(\theta) = {{trig_a}}</m></p>
+           <!-- <p><m>\cos(\theta) = {{cosA}}</m></p>
+            <p><m>\tan(\theta) = {{tanA}}</m></p>
+            <p><m>\cot(\theta) = {{cotA}}</m></p>
+            <p><m>\sec(\theta) = {{secA}}</m></p>
+            <p><m>\csc(\theta) = {{cscA}}</m></p> -->
+        </outtro>
+    </knowl>
+</knowl>

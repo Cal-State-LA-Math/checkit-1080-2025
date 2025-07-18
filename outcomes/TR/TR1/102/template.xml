@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Answer the following questions regarding the evaluation of trigonometric functions.</p>
+    </intro>
+    <knowl>
+        <content>
+            <p>What is the exact value of <m>{{SCdeg}}</m>?</p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p><m>{{SCdeg}} = {{answer_1}}</m>.</p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>What is the exact value of <m>{{SCrad}}</m>?</p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p><m>{{SCrad}} = {{answer_2}}</m>.</p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Estimate <m>{{Other}}</m> to two decimal places.</p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p><m>{{Other}} \approx {{answer_3}}</m>.</p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>If <m>{{Pyth1}}</m> and <m>\theta</m> is in quadrant {{quadrant}}, find <m>{{Pyth2}}</m>. Round your answer to two decimal places.</p>
+        </content>
+        <outtro><p><m>{\large Answer}</m></p>
+            <p><m>{{Pyth2}} \approx {{answer_4}}</m>.</p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>What is the exact value of <m>{{Inverse}}?</m></p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p><m>{{Inverse}} = {{answer_5}}</m>.</p>
+        </outtro>
+    </knowl>
+</knowl>
