@@ -756,5 +756,29 @@ I can find the area of a circular sector given the center angle and radius.
 I can find arc lenghts.
             </description>
         </outcome>
+        <outcome>
+            <title>Right Triangle Trig: Special Triangle</title>
+            <slug>TR3-100</slug>
+            <path>outcomes/TR/TR3/100</path>
+            <description>
+Right triangle trig: special triangle.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Right Triangle Trig: Finding Sides</title>
+            <slug>TR3-101</slug>
+            <path>outcomes/TR/TR3/101</path>
+            <description>
+Right triangle trig: finding sides.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Right Triangle Trig: Finding Angles</title>
+            <slug>TR3-102</slug>
+            <path>outcomes/TR/TR3/102</path>
+            <description>
+Right triangle trig: finding angles.
+            </description>
+        </outcome>
     </outcomes>
 </bank>

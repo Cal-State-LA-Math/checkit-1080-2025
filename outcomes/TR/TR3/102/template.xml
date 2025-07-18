@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+    <p>Using the given information about a right triangle</p>
+    <p>side a = {{side_a}} and side b = {{side_b}} </p>
+    <p> find the following values. Give your answers in exact values.</p>
+    </intro>
+    <knowl>
+        <content>
+        <p>Find the length of side c.</p>
+    </content>
+    <outtro>
+        <p><m>{\large Answer}</m></p>
+        <p>The length of side c = <m>{{side_c}}</m>.</p>
+        </outtro>
+    </knowl>
+    <knowl>
+    <content>
+        <p> Find {{ques}}.</p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+        <p>{{ques}} = <m>\frac{ {{ans_n}} }{ {{ans_d}} }</m>.</p></outtro>
+    </knowl>
+</knowl>
