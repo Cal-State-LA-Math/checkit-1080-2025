@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Use the information given and your knowledge of trig ratios to answer the question.</p>
+    </intro>
+    <knowl>
+        <content>
+            <p>You are doing a photoshoot to promote a new drone. The drone is hovering in the air at a height of {{vhigh}} meters, and you are standing {{hdist}} meters horizontally from the point directly beneath it. You want to take a picture of the drone. At what angle do you need to position the camera to center the drone in the picture? Explain how you figured it out. Show all of your work and give your answer in degrees rounded to two decimal places.</p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>Use <m>arctan( \frac{ {{vhigh}} }{ {{hdist}} } )</m> to find the needed angle. The angle that you should hold the camera is <m>{{angle}}^{\circ}</m>. </p>
+        </outtro>
+    </knowl>
+        
+</knowl>

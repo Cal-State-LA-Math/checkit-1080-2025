@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Use the information given and your knowledge of trig ratios to answer the question.</p>
+    </intro>
+    <knowl>
+        <content>
+            <p>You are filming a movie and planning a camera crane setup for a specific dramatic upward shot. The camera will be lifted {{vhigh}} feet high on a crane. You are standing {{hdist}} feet away from the base of the crane. What angle will you need to tilt the camera down to see the lens? Explain how you figured it out. Show all of your work and give your answer in degrees rounded to two decimal places.</p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>Use <m>arctan( \frac{ {{hdist}} }{ {{vhigh}} } )</m> to find the needed angle. The angle that you should tilt the camera is <m>{{angle}}^{\circ}</m>. </p>
+        </outtro>
+    </knowl>
+        
+</knowl>

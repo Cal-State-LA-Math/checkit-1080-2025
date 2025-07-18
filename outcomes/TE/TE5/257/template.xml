@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Use the information given and your knowledge of trig ratios to answer the question.</p>
+    </intro>
+    <knowl>
+        <content>
+            <p>You are standing {{hdist}} feet from the base of a tall oak tree. The tree is {{vhigh}} feet tall (relative to your eye level). What angle do you have to look up at to see the top of the tree? Explain how you figured it out. Show all of your work and give your answer in degrees rounded to two decimal places.</p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>Use <m>arctan( \frac{ {{vhigh}} }{ {{hdist}} } )</m> to find the needed angle. The angle that you would be looking up at is <m>{{angle}}^{\circ}</m>. </p>
+        </outtro>
+    </knowl>
+        
+</knowl>

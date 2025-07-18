@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Use the information given and your knowledge of trig ratios to answer the question.</p>
+    </intro>
+    <knowl>
+        <content>
+            <p>You are helping a drone pilot plan their launch angle to avoid crashing into a cliff. Your team is positioned {{hdist}} meters away from the base of the cliff that is {{vhigh}} meters tall? What angle of elevation should you program into the drone's flight path to clear the top of the cliff? Explain how you figured it out. Show all of your work and give your answer in degrees rounded to two decimal places.</p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>Use <m>arctan( \frac{ {{vhigh}} }{ {{hdist}} } )</m> to find the needed angle. The angle that need to program into the drone's flight path is at least <m>{{angle}}^{\circ}</m>. </p>
+        </outtro>
+    </knowl>
+        
+</knowl>

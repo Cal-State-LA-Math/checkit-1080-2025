@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>Use the information given and your knowledge of trig ratios to answer the question.</p>
+    </intro>
+    <knowl>
+        <content>
+            <p>You are training for a drone certification and reviewing flight path angles. Your spotter stands {{hdist}} meters from the base of your drone launch pad. The drone hovers at {{vhigh}} meters above the launch pad. At what angle does your spotter need to look up at to see the drone? Explain how you figured it out. Show all of your work and give your answer in degrees rounded to two decimal places.</p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>Use <m>arctan( \frac{ {{vhigh}} }{ {{hdist}} } )</m> to find the needed angle. The angle that your spotter needs to looking up at is <m>{{angle}}^{\circ}</m>. </p>
+        </outtro>
+    </knowl>
+        
+</knowl>
