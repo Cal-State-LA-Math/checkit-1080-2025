@@ -740,5 +740,21 @@ Degree and rad measurements.
 Evaluating trig functions.
             </description>
         </outcome>
+        <outcome>
+            <title>Area of Circular Sector</title>
+            <slug>TR2-251</slug>
+            <path>outcomes/TR/TR2/251</path>
+            <description>
+I can find the area of a circular sector given the center angle and radius.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Arc Length</title>
+            <slug>TR2-252</slug>
+            <path>outcomes/TR/TR2/252</path>
+            <description>
+I can find arc lenghts.
+            </description>
+        </outcome>
     </outcomes>
 </bank>

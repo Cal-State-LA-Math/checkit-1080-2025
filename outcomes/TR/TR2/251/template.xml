@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+              <p>Use the given information to find the area of the circular sector.</p>
+          </intro>
+    <knowl>
+        <content>
+            <p>A sector of a circle has a center angle of <m>{{angle}} ^{\circ}</m>. What is the area of the sector if the radius is {{rad}} {{radunit}}? Please round your answer to two decimal places, show all your work and include the correct units in your answer.</p>
+            
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p> The area of the sector is {{area}} {{radunit}} squared</p>
+        </outtro>
+    </knowl>
+   
+</knowl>
