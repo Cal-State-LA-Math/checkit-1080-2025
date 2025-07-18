@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro><p> Explain and use trigonometric identifies to complete the following.</p></intro>
+    <knowl>
+        <content>
+            <p>Prove that
+            <m mode = "display">
+            {{f}} {{g}}^{ {{p}} } (\theta) {{pm}} {{g}}^{ {{p}} } (\theta) {{h}} 
+            </m>
+            is equal to the simplified expression <m>{{q}} {{g}}^{ {{p}} }(\theta) {{b}}</m>
+            </p> 
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>Hint: look for opportunities to use your knowledge of 
+            factoring and the Pythagorean identities.
+            <m mode="display"> 
+                {{f}} {{g}}^{ {{p}} } (\theta) {{pm}} {{g}}^{ {{p}} } (\theta) {{h}}
+                = \text{your proof here ...}
+                = {{q}} {{g}}^{ {{p}} }(\theta) {{b}}
+            </m>
+            </p>
+            <p>Note that in some cases, this last expression 
+            can be simplified even further.</p>
+        </outtro>
+    </knowl>
+   <!-- <knowl>
+        <content>
+            <p>Prove that
+            <m mode = "display">
+            {{F}} {{G}}^{ {{P}} } (\theta) {{PM}} {{G}}^{ {{P}} } (\theta) {{H}} 
+            </m>
+            is equal to the simplified expression <m>{{Q}} {{G}}^{ {{P}} }(\theta) {{B}}</m>
+            </p> 
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>Hint: look for opportunities to use your knowledge of 
+            factoring and the Pythagorean identities.
+            <m mode="display"> 
+                {{F}} {{G}}^{ {{P}} } (\theta) {{PM}} {{G}}^{ {{P}} } (\theta) {{H}}
+                = \text{your proof here ...}
+                = {{Q}} {{G}}^{ {{P}} }(\theta) {{B}}
+            </m>
+            </p>
+            <p>Note that in some cases, this last expression 
+            can be simplified even further.</p>
+        </outtro>
+    </knowl> -->
+</knowl>

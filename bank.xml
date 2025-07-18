@@ -564,5 +564,37 @@ Properties of polynomial functions.
 Properties of polynomial functions.
             </description>
         </outcome>
+        <outcome>
+            <title>Solving Trig Equations with Identities</title>
+            <slug>TE2-100</slug>
+            <path>outcomes/TE/TE2/100</path>
+            <description>
+I can solve trig equations using identities.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Solving Trig Equations with Identities</title>
+            <slug>TE2-101</slug>
+            <path>outcomes/TE/TE2/101</path>
+            <description>
+I can solve trig equations using identities.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Solving Trig Equations with Identities</title>
+            <slug>TE2-251</slug>
+            <path>outcomes/TE/TE2/251</path>
+            <description>
+I can solve trig equations using identities.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Solving Trig Equations with Identities</title>
+            <slug>TE2-252</slug>
+            <path>outcomes/TE/TE2/252</path>
+            <description>
+I can solve trig equations using identities.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
