@@ -428,5 +428,29 @@ Graphs of sin and cos functions.
 Graphs of sin and cos functions.
             </description>
         </outcome>
+        <outcome>
+            <title>Inverse Trig Functions</title>
+            <slug>PF2-100</slug>
+            <path>outcomes/PF/PF2/100</path>
+            <description>
+Inverse trig functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Graphing Quadratic Functions</title>
+            <slug>PR1-100</slug>
+            <path>outcomes/PR/PR1/100</path>
+            <description>
+Inverse trig functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Graphing Quadratic Functions</title>
+            <slug>PR1-251</slug>
+            <path>outcomes/PR/PR1/251</path>
+            <description>
+Inverse trig functions.
+            </description>
+        </outcome>
     </outcomes>
 </bank>

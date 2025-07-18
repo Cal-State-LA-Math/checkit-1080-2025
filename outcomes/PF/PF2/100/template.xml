@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+              <p>Complete the problem below. Show all work and explain your steps.</p>
+          </intro>
+
+         
+      <knowl>
+        <content>
+            <p>Find the exact value of <m>{{trig_2}} ( {{trig_1}}  (\frac{ {{a}} }{ {{b}} }))</m></p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p> <m>{{trig_2}} ( {{trig_1}}  (\frac{ {{a}} }{ {{b}} })) = \frac{ {{ans_1}}\sqrt{ {{c}} } }{ {{c}} }</m></p>
+        </outtro>
+      </knowl>
+  </knowl>
