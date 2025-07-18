@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+            <p>
+                Let <m>f(x)={{f}}</m>.
+            </p>
+        </intro>
+    <knowl>
+        <content>
+            <p>
+                Find the {{name1}} of <m>f(x)</m>, along with their corresponding multiplicities.
+            </p>
+        </content>
+
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>
+                The {{name1}} of <m>f(x)={{f}}</m> are
+                <m>x  = {{r1o}}</m> with multiplicity <m>2</m>,
+                and <m>x = {{r2o}}</m> with multiplicity <m>{{r2mult}}</m>.
+            </p>
+        </outtro>
+        
+    </knowl> 
+    
+    <knowl>
+        <content>
+            <p>
+                Find the <m>y</m>-intercept of <m>y=f(x)</m>.
+            </p>
+        </content>
+
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>
+                The <m>y</m>-intercept of <m>y={{f}}</m> is <m>\left( 0, {{yint}}\right)</m>.
+            </p>
+        </outtro>
+        
+    </knowl> 
+    
+    <knowl>
+        <content>
+            <p>
+                Describe the end behavior of the graph <m>y=f(x)</m>.
+            </p>
+        </content>
+
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>
+                As <m>x</m> approaches infinity, <m>y</m> {{rightbehavior}}.  As <m>x</m> approaches negative infinity, <m>y</m> {{leftbehavior}}.
+            </p>
+        </outtro>
+    </knowl>
+    
+</knowl>

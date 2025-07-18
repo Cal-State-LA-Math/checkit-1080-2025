@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>
+            Use the polynomial <m>f(x) = {{poly}}</m> to answer the questions about its graph.
+        </p>
+    </intro>
+    <knowl>
+         <content>
+            <p>
+            What happens to the end behavior of the graph of <m>f(x)</m> as <m>x \to \infty</m>? Explain your reasoning.
+                </p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>As <m>x \to \infty</m>, <m> f(x) \to {{RE}}</m></p>
+    </outtro>
+        </knowl>
+    <knowl>
+        <content>
+        <p>What happens to the end behavior of the graph of <m>f(x)</m> as <m>x \to -\infty</m>? Explain your reasoning.</p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>As <m>x \to -\infty</m>, <m> f(x) \to {{LE}}</m></p>
+        </outtro>
+    </knowl>
+    <knowl>
+    <content>
+        <p>
+        Without finding the x-intercepts, what is the maximum number of x-intercepts <m>f(x)</m> could have? Explain your reasoning.
+        </p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p> The max number of x-intercepts would be <m>{{a}}</m></p>
+        </outtro>
+    </knowl>
+    <knowl>
+    <content>
+        <p>
+        Without graphing <m>f(x)</m>, what is the maximum number of turning points the graph could have? Explain your reasoning. 
+        </p>
+        </content>
+        <outtro>
+            <p><m>{\large Answer}</m></p>
+            <p>The max number of turning points in the graph of <m>f(x)</m> would be {{tp}}</p>
+        </outtro>
+    </knowl>
+</knowl>

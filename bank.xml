@@ -492,5 +492,29 @@ Solving quadratic models.
 Solving quadratic models.
             </description>
         </outcome>
+        <outcome>
+            <title>Graphs of Polynomial Functions</title>
+            <slug>PR3-100</slug>
+            <path>outcomes/PR/PR3/100</path>
+            <description>
+Graphs of polynomial functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Graphs of Polynomial Functions</title>
+            <slug>PR3-101</slug>
+            <path>outcomes/PR/PR3/101</path>
+            <description>
+Graphs of polynomial functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Graphs of Polynomial Functions</title>
+            <slug>PR3-251</slug>
+            <path>outcomes/PR/PR3/251</path>
+            <description>
+Graphs of polynomial functions.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
