@@ -57,63 +57,63 @@ class Generator(BaseGenerator):
         "plots": plots,
       } 
 
-      @provide_data
-      def graphics(data):
-        p=ellipse((-2,0),1,2,fill=True,alpha=0.3)
-        p+=ellipse((2,0),1,2,fill=True,alpha=0.3)
-        domain = sample([1..20],6)
-        codomain = sample([1..20],6)
-        for x in domain:
-          p+=text(f"${x}$", (-2,1.5-0.6*domain.index(x)),fontsize=20,horizontal_alignment="right",color="black")
+  @provide_data
+  def graphics(data):
+    p=ellipse((-2,0),1,2,fill=True,alpha=0.3)
+    p+=ellipse((2,0),1,2,fill=True,alpha=0.3)
+    domain = sample([1..20],6)
+    codomain = sample([1..20],6)
+    for x in domain:
+      p+=text(f"${x}$", (-2,1.5-0.6*domain.index(x)),fontsize=20,horizontal_alignment="right",color="black")
 
-        for y in codomain:
-          p+=text(f"${y}$", (2,1.5-0.6*codomain.index(y)),fontsize=20,horizontal_alignment="left",color="black")
-      
-        #draw arrows randomly but make it a function
-        for x in domain:
-          p+= arrow( (-2,1.5-0.6*domain.index(x)), (2,1.5-0.6*choice([0..5])))
+    for y in codomain:
+      p+=text(f"${y}$", (2,1.5-0.6*codomain.index(y)),fontsize=20,horizontal_alignment="left",color="black")
+  
+    #draw arrows randomly but make it a function
+    for x in domain:
+      p+= arrow( (-2,1.5-0.6*domain.index(x)), (2,1.5-0.6*choice([0..5])))
 
-        #If it's not supposed to be a function, draw an extra arrow
-        if not data["map_function"]:
-          p+= arrow( (-2,1.5-0.6*choice([0..5])), (2,1.5-0.6*choice([0..5])))
+    #If it's not supposed to be a function, draw an extra arrow
+    if not data["map_function"]:
+      p+= arrow( (-2,1.5-0.6*choice([0..5])), (2,1.5-0.6*choice([0..5])))
 
-        p.axes(False)
+    p.axes(False)
 
-        q=[]
-        x = var('x')
-        y = var('y')
-        for (plot_type,is_function) in data["plots"]:
-          if plot_type == "ellipse": 
-            q.append(ellipse((choice([-3..3]),choice([-3..3])),choice([1..4]),choice([1..4]),thickness=2))
-          if plot_type == "parabola" and is_function: 
-            q.append(plot(choice([-1,1])*choice([1..3])*x^2+choice([-3..3])*x+choice([-3..3]),(x,-5,5),thickness=2))
-          if plot_type == "parabola" and not is_function: 
-            q.append(parametric_plot((choice([-1,1])*choice([1,3])*y^2+choice([-3..3])*y+choice([-3..3]),y),(y,-5,5),thickness=2))
-          if plot_type == "points" and is_function: 
-            q.append(point([(x,choice([-5..5])) for x in sample([-5..5],5)],size=30))
-          if plot_type == "points" and not is_function: 
-            xlist=[-5..5]
-            duped_x=xlist.pop()
-            q.append(point([(x,choice([-5..5])) for x in sample(xlist,3)],size=30)+point([(duped_x,y) for y in sample([-5..5],2)],size=30))
-          if plot_type == "line":
-            q.append(plot(choice([-4..4])*x+choice([-4..4]),(x,-5,5),thickness=2))
-          if plot_type == "cubic":
-            q.append(plot(choice([-1,1])*choice([1..3])*x^3+choice([-3..3])*x^2+choice([-3..3])*x+choice([-3..3]),(x,-5,5),thickness=2))
-          if plot_type == "hyperbola":
-            q.append(implicit_plot(choice([1..4])*x^2-choice([1..4])*y^2+choice([-1,1])*choice([1..4]),(x,-3,3),(y,-3,3),linewidth=2))
-          if plot_type ==  "piecewise":
-            cut=choice([-2..2])
-            if is_function:
-              xranges=[(x,-5,cut),(x,cut+1,5)]
-            if not is_function:
-              xranges=[(x,-5,cut),(x,cut-1,5)]
-            shuffle(xranges)
-            q.append(plot(choice([-1,1])*x^2+choice([-3..3])*x,xranges[0],thickness=2)+plot(choice([-3..3])*x+choice([-3..3]),xranges[1],thickness=2))
+    q=[]
+    x = var('x')
+    y = var('y')
+    for (plot_type,is_function) in data["plots"]:
+      if plot_type == "ellipse": 
+        q.append(ellipse((choice([-3..3]),choice([-3..3])),choice([1..4]),choice([1..4]),thickness=2))
+      if plot_type == "parabola" and is_function: 
+        q.append(plot(choice([-1,1])*choice([1..3])*x^2+choice([-3..3])*x+choice([-3..3]),(x,-5,5),thickness=2))
+      if plot_type == "parabola" and not is_function: 
+        q.append(parametric_plot((choice([-1,1])*choice([1,3])*y^2+choice([-3..3])*y+choice([-3..3]),y),(y,-5,5),thickness=2))
+      if plot_type == "points" and is_function: 
+        q.append(point([(x,choice([-5..5])) for x in sample([-5..5],5)],size=30))
+      if plot_type == "points" and not is_function: 
+        xlist=[-5..5]
+        duped_x=xlist.pop()
+        q.append(point([(x,choice([-5..5])) for x in sample(xlist,3)],size=30)+point([(duped_x,y) for y in sample([-5..5],2)],size=30))
+      if plot_type == "line":
+        q.append(plot(choice([-4..4])*x+choice([-4..4]),(x,-5,5),thickness=2))
+      if plot_type == "cubic":
+        q.append(plot(choice([-1,1])*choice([1..3])*x^3+choice([-3..3])*x^2+choice([-3..3])*x+choice([-3..3]),(x,-5,5),thickness=2))
+      if plot_type == "hyperbola":
+        q.append(implicit_plot(choice([1..4])*x^2-choice([1..4])*y^2+choice([-1,1])*choice([1..4]),(x,-3,3),(y,-3,3),linewidth=2))
+      if plot_type ==  "piecewise":
+        cut=choice([-2..2])
+        if is_function:
+          xranges=[(x,-5,cut),(x,cut+1,5)]
+        if not is_function:
+          xranges=[(x,-5,cut),(x,cut-1,5)]
+        shuffle(xranges)
+        q.append(plot(choice([-1,1])*x^2+choice([-3..3])*x,xranges[0],thickness=2)+plot(choice([-3..3])*x+choice([-3..3]),xranges[1],thickness=2))
 
 
-      return {
-            "mapping": plot(p),
-            "plot0": plot(q[0]),
-            "plot1": plot(q[1]),
-            "plot2": plot(q[2]),
-      }
+    return {
+          "mapping": plot(p),
+          "plot0": plot(q[0]),
+          "plot1": plot(q[1]),
+          "plot2": plot(q[2]),
+    }
