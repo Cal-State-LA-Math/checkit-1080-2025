@@ -12,7 +12,7 @@
                     <content>
                     <p>
                     <image
-                        source="../assets/FN1/generated/{{__seed__}}/mapping.png"
+                        source="../assets/FN1-100/generated/{{__seed__}}/mapping.png"
                         description="Mapping"/>
                     </p>
                     </content>
@@ -100,8 +100,8 @@
             <content>
                 <p>
                     <image
-                        source="../assets/FN1/generated/{{__seed__}}/{{plot}}.png"
-                        description="Plot"/>
+                        source="../assets/FN1-100/generated/{{__seed__}}/{{plot}}.png"
+                        description="Plot FN1-100"/>
                 </p>
             </content>
             <outtro>
