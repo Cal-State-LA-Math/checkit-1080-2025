@@ -42,6 +42,8 @@ class Generator(BaseGenerator):
 
   @provide_data
   def graphics(data):
+    q=Graphics()
+    p=Graphics()
     q=plot(data["f"],-2,2,ymin=-8,ymax=8,thickness=3,gridlines=[[-8..8],[-8..8]])
     q.xmin(-8)
     q.xmax(8)
