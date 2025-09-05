@@ -1,5 +1,5 @@
 class Generator(BaseGenerator):
-  def data(self):
+    def data(self):
         def poly_with_zeros(zeros, x=var("x"), mults=None, vrange=None):
             """
             Returns a polynomial with the specified zeros and mulitiplicies
@@ -89,26 +89,26 @@ class Generator(BaseGenerator):
         
         
             
-  @provide_data
-  def graphics(data):
-      scene = data['scene']
-      r1 = data['r1']
-      r2 = data['r2']
-      r3 = data['r3']
-      yint = data['yint']
-      a = -6
-      b = 6
-      f(x) = data['f']
-      n = data['n']
-      h = data['horizontal']
-      c = min(f(r2-0.2), f(r2+0.2), -10)
-      d = max(f(r2-0.2), f(r2+0.2), 10)
-  # updated by clontz, who is solely responsible for anything written here
-    
-      if scene == "zero":
-          return {"plot": plot(f(x), (a,r2-0.01), ymin=c, ymax=d) + plot(f(x), (r2+0.01, b), ymin=c, ymax=d)+point((r1,f(r1)), color='red', size=22)+point((0, yint), color='green', size=22)  + line([(r2,c), (r2,d)], linestyle = "dashed", color='purple') + line([(a,0), (b,0)], linestyle = "dashed", color='orange'),}
-      if scene == "one":
-          return {"plot": plot(f(x), (a,r2-0.01), ymin=c, ymax=d) + plot(f(x), (r2+0.01, b), ymin=c, ymax=d)+point((r1,f(r1)), color='red', size=22)+point((0, yint), color='green', size=22)+point(( r3, 0), color='green', size=22)  + line([(r2,c), (r2,d)], linestyle = "dashed", color='purple') + line([(a,h), (b,h)], linestyle = "dashed", color='orange'),}
+    @provide_data
+    def graphics(data):
+        scene = data['scene']
+        r1 = data['r1']
+        r2 = data['r2']
+        r3 = data['r3']
+        yint = data['yint']
+        a = -6
+        b = 6
+        f(x) = data['f']
+        n = data['n']
+        h = data['horizontal']
+        c = min(f(r2-0.2), f(r2+0.2), -10)
+        d = max(f(r2-0.2), f(r2+0.2), 10)
+    # updated by clontz, who is solely responsible for anything written here
         
-      if scene == "two":
-          return{"plot": plot(f(x), (a,r2-0.01), ymin=c, ymax=d) + plot(f(x), (r2+0.01, b), ymin=c, ymax=d)+point((r1,f(r1)), color='red', size=22)+point((0, yint), color='green', size=22)+point(( r3, 0), color='green', size=22) + line([(r2,c), (r2,d)], linestyle = "dashed", color='purple'),}
+        if scene == "zero":
+            return {"plot": plot(f(x), (a,r2-0.01), ymin=c, ymax=d) + plot(f(x), (r2+0.01, b), ymin=c, ymax=d)+point((r1,f(r1)), color='red', size=22)+point((0, yint), color='green', size=22)  + line([(r2,c), (r2,d)], linestyle = "dashed", color='purple') + line([(a,0), (b,0)], linestyle = "dashed", color='orange'),}
+        if scene == "one":
+            return {"plot": plot(f(x), (a,r2-0.01), ymin=c, ymax=d) + plot(f(x), (r2+0.01, b), ymin=c, ymax=d)+point((r1,f(r1)), color='red', size=22)+point((0, yint), color='green', size=22)+point(( r3, 0), color='green', size=22)  + line([(r2,c), (r2,d)], linestyle = "dashed", color='purple') + line([(a,h), (b,h)], linestyle = "dashed", color='orange'),}
+            
+        if scene == "two":
+            return{"plot": plot(f(x), (a,r2-0.01), ymin=c, ymax=d) + plot(f(x), (r2+0.01, b), ymin=c, ymax=d)+point((r1,f(r1)), color='red', size=22)+point((0, yint), color='green', size=22)+point(( r3, 0), color='green', size=22) + line([(r2,c), (r2,d)], linestyle = "dashed", color='purple'),}
