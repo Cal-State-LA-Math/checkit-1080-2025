@@ -1,5 +1,5 @@
 class Generator(BaseGenerator):
-  def data(self):
+    def data(self):
         var('x y')
         
         name1 = choice(["zeroes", "roots"])
@@ -51,17 +51,17 @@ class Generator(BaseGenerator):
         
         
             
-        @provide_data
-        def graphics(data):
-            r1 = data['r1']
-            r2 = data['r2']
-            yint = data['yint']
-            a = min(r1, r2, 0)-1
-            b = max(r1, r2, 0)+1
-            f(x) = data['f']
-            height = data['height']
-            P = plot(f(x), (a,b), ymin=-height, ymax = height)
-            P += point((r1,0), color='red', size=22)
-            P += point((r2,0), color='red', size=22)
-            P += point((0, yint), color='blue', size=22)
-            return {"plot": P}
+    @provide_data
+    def graphics(data):
+        r1 = data['r1']
+        r2 = data['r2']
+        yint = data['yint']
+        a = min(r1, r2, 0)-1
+        b = max(r1, r2, 0)+1
+        f(x) = data['f']
+        height = data['height']
+        P = plot(f(x), (a,b), ymin=-height, ymax = height)
+        P += point((r1,0), color='red', size=22)
+        P += point((r2,0), color='red', size=22)
+        P += point((0, yint), color='blue', size=22)
+        return {"plot": P}
