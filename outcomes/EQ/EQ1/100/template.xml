@@ -26,7 +26,7 @@
             </p>
             <p>
                 <image
-                    source="../assets/EQ1/generated/{{__seed__}}/plot.png"
+                    source="../assets/EQ1-100/generated/{{__seed__}}/plot.png"
                     description="Solution to inequality."/>
             </p>
         </outtro>
