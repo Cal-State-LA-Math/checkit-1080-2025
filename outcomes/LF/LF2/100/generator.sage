@@ -58,5 +58,6 @@ class Generator(BaseGenerator):
 
   @provide_data
   def graphics(data):
+    p=Graphics()
     p=plot(data["line2_si"].rhs(),-10,10,ymin=-10,ymax=10,thickness=2,gridlines=True,ticks=[1,1],aspect_ratio=1)
     return {"plot":p}
