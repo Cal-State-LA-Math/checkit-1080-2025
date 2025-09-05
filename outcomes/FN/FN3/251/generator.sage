@@ -160,33 +160,33 @@ class Generator(BaseGenerator):
   @provide_data
   def graphics(data):
   # updated by clontz
-      plots=[]
-      for i in [0,1]:
-        plots.append( plot(data["graphs"][i]["pieces"][0],xmin=data["graphs"][i]["domain"][0],xmax=data["graphs"][i]["cut_points"][0][0],thickness=3) +
-                      plot(data["graphs"][i]["pieces"][1],xmin=data["graphs"][i]["cut_points"][0][0],xmax=data["graphs"][i]["cut_points"][1][0],thickness=3) +
-                      plot(data["graphs"][i]["pieces"][2],xmin=data["graphs"][i]["cut_points"][1][0],xmax=data["graphs"][i]["cut_points"][2][0],thickness=3) +
-                      plot(data["graphs"][i]["pieces"][3],xmin=data["graphs"][i]["cut_points"][2][0],xmax=data["graphs"][i]["cut_points"][3][0],thickness=3) +
-                      plot(data["graphs"][i]["pieces"][4],xmin=data["graphs"][i]["cut_points"][3][0],xmax=data["graphs"][i]["domain"][1],thickness=3,gridlines="minor")
-                    )
-        #Left endpoint
-        if data["graphs"][i]["domain_left_included"]:
-          plots[i]+= point( (data["graphs"][i]["domain"][0],data["graphs"][i]["pieces"][0].subs(data["graphs"][i]["domain"][0])), 
-                           color='blue',size=75)
-        else:
-          plots[i] +=point( (data["graphs"][i]["domain"][0],data["graphs"][i]["pieces"][0].subs(data["graphs"][i]["domain"][0])), 
-                           pointsize=75,markeredgecolor='blue',color='white',zorder=5)
+    plots=[]
+    for i in [0,1]:
+      plots.append( plot(data["graphs"][i]["pieces"][0],xmin=data["graphs"][i]["domain"][0],xmax=data["graphs"][i]["cut_points"][0][0],thickness=3) +
+                    plot(data["graphs"][i]["pieces"][1],xmin=data["graphs"][i]["cut_points"][0][0],xmax=data["graphs"][i]["cut_points"][1][0],thickness=3) +
+                    plot(data["graphs"][i]["pieces"][2],xmin=data["graphs"][i]["cut_points"][1][0],xmax=data["graphs"][i]["cut_points"][2][0],thickness=3) +
+                    plot(data["graphs"][i]["pieces"][3],xmin=data["graphs"][i]["cut_points"][2][0],xmax=data["graphs"][i]["cut_points"][3][0],thickness=3) +
+                    plot(data["graphs"][i]["pieces"][4],xmin=data["graphs"][i]["cut_points"][3][0],xmax=data["graphs"][i]["domain"][1],thickness=3,gridlines="minor")
+                  )
+      #Left endpoint
+      if data["graphs"][i]["domain_left_included"]:
+        plots[i]+= point( (data["graphs"][i]["domain"][0],data["graphs"][i]["pieces"][0].subs(data["graphs"][i]["domain"][0])), 
+                          color='blue',size=75)
+      else:
+        plots[i] +=point( (data["graphs"][i]["domain"][0],data["graphs"][i]["pieces"][0].subs(data["graphs"][i]["domain"][0])), 
+                          pointsize=75,markeredgecolor='blue',color='white',zorder=5)
 
-        #Right endpoint
-        if data["graphs"][i]["domain_right_included"]:
-          plots[i]+= point( (data["graphs"][i]["domain"][1],data["graphs"][i]["pieces"][-1].subs(data["graphs"][i]["domain"][1])), 
-                           color='blue',size=75)
-        else:
-          plots[i]+= point( (data["graphs"][i]["domain"][1],data["graphs"][i]["pieces"][-1].subs(data["graphs"][i]["domain"][1])), 
-                           pointsize=75,markeredgecolor='blue',color='white',zorder=5)
+      #Right endpoint
+      if data["graphs"][i]["domain_right_included"]:
+        plots[i]+= point( (data["graphs"][i]["domain"][1],data["graphs"][i]["pieces"][-1].subs(data["graphs"][i]["domain"][1])), 
+                          color='blue',size=75)
+      else:
+        plots[i]+= point( (data["graphs"][i]["domain"][1],data["graphs"][i]["pieces"][-1].subs(data["graphs"][i]["domain"][1])), 
+                          pointsize=75,markeredgecolor='blue',color='white',zorder=5)
 
 
-      return {
-          
-          "graph1": plots[0],
-          "graph2": plots[1]
-          }
+    return {
+        
+        "graph1": plots[0],
+        "graph2": plots[1]
+        }
