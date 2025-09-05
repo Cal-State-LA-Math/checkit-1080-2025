@@ -1,5 +1,5 @@
 class Generator(BaseGenerator):
-  def data(self):
+    def data(self):
         while True:
             #Select five distinct potential roots
             r = [randrange(-6,6),randrange(-6,6),randrange(-6,6),randrange(-6,6),randrange(-6,6)]
@@ -134,10 +134,10 @@ class Generator(BaseGenerator):
             "faketicks": faketicks,
         }
     
-        @provide_data
-        def graphics(data):
-        # updated by clontz
-            return {
-                "polynomial": plot(data['lpp'](x),(x,data['xmin'],data['xmax']),axes=[True,False],ticks=[data['faketicks'],[]],zorder=20,ymin=-0.1,ymax=0.1),
+    @provide_data
+    def graphics(data):
+    # updated by clontz
+        return {
+            "polynomial": plot(data['lpp'](x),(x,data['xmin'],data['xmax']),axes=[True,False],ticks=[data['faketicks'],[]],zorder=20,ymin=-0.1,ymax=0.1),
 #               "polynomial": plot(data['lpp'](x),(x,data['xmin'],data['xmax']),axes=[True,False],ticks=[data['faketicks'],[]],tick_formatter=[data['xticks'],0],zorder=20,ymin=-0.1,ymax=0.1),
-            }
+        }
