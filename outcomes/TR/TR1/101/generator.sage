@@ -1,5 +1,5 @@
 class Generator(BaseGenerator):
-  def data(self):
+    def data(self):
         #Decide to start with degrees or radians
         angle_options = ["degrees","radians"]
         coin_flip = randrange(0,2)
@@ -128,21 +128,21 @@ class Generator(BaseGenerator):
             "ref_y": reference_point[1],
         }
         
-        @provide_data
-        def graphics(data):
-            y = var('y')
-            t = var('t')
-        
-            #Make the circle
-            plot = implicit_plot(x^2 + y^2 == 1, (x,-1,1), (y,-1,1), color = 'red')
-            #Make the axes
-            plot += implicit_plot(x == 0, (x,-1,1), (y,-1,1), color = 'black') 
-            plot += implicit_plot(y == 0, (x,-1,1), (y,-1,1), color = 'black')
-            #Make the coterminal angle
-            plot += parametric_plot((t*data["cot_x"],t*data["cot_y"]), (t,0,1), color = 'blue')
-            #Make the reference angle
-            plot += parametric_plot((t*data["ref_x"],t*data["ref_y"]), (t,0,1), color = 'purple')
-        
+    @provide_data
+    def graphics(data):
+        y = var('y')
+        t = var('t')
+    
+        #Make the circle
+        plot = implicit_plot(x^2 + y^2 == 1, (x,-1,1), (y,-1,1), color = 'red')
+        #Make the axes
+        plot += implicit_plot(x == 0, (x,-1,1), (y,-1,1), color = 'black') 
+        plot += implicit_plot(y == 0, (x,-1,1), (y,-1,1), color = 'black')
+        #Make the coterminal angle
+        plot += parametric_plot((t*data["cot_x"],t*data["cot_y"]), (t,0,1), color = 'blue')
+        #Make the reference angle
+        plot += parametric_plot((t*data["ref_x"],t*data["ref_y"]), (t,0,1), color = 'purple')
+    
         return {
             "Show": plot,
         }

@@ -1,5 +1,5 @@
 class Generator(BaseGenerator):
-  def data(self):
+    def data(self):
         denom = choice([3,4,6]);
         ref_angle = pi/denom;
         cosQ1 = cos(ref_angle);
@@ -41,10 +41,10 @@ class Generator(BaseGenerator):
             "trig_a":trig_a,
         }
     
-        @provide_data
-        def graphics(data):
+    @provide_data
+    def graphics(data):
 
-            return {
-                "Show1": point((0,0),pointsize=20,color='blue')+point((1,0),pointsize=20,color='blue')+point(data["ref_pt"],pointsize=20,color='blue')+circle((0,0),1,color='blue',linestyle="--")+arc((0,0), 1, sector=(0,data["ref_angle"]),color='red')+line([(0,0),(1,0)],color='red')+line([(0,0),data["ref_pt"]],color='red'),
-                "Show2": point((0,0),pointsize=20,color='blue')+point(data["pt"],pointsize=20,color='blue')+circle((0,0),1,color='blue',linestyle="--")+line([(0,0),data["pt"]],color='red'),
-            }
+        return {
+            "Show1": point((0,0),pointsize=20,color='blue')+point((1,0),pointsize=20,color='blue')+point(data["ref_pt"],pointsize=20,color='blue')+circle((0,0),1,color='blue',linestyle="--")+arc((0,0), 1, sector=(0,data["ref_angle"]),color='red')+line([(0,0),(1,0)],color='red')+line([(0,0),data["ref_pt"]],color='red'),
+            "Show2": point((0,0),pointsize=20,color='blue')+point(data["pt"],pointsize=20,color='blue')+circle((0,0),1,color='blue',linestyle="--")+line([(0,0),data["pt"]],color='red'),
+        }
