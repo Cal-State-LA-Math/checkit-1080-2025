@@ -34,17 +34,17 @@ class Generator(BaseGenerator):
         fact6 = (x - root[5])
         fact7 = (x - root[6])
         poly = expand(lc * fact1 * fact2 * fact3 * fact4 * fact5 * fact6 * fact7)
-    LE = "-\infty"
-    RE = "\infty"
+    LE = r"-\infty"
+    RE = r"\infty"
     if a==4  and lc==-1 or a==6 and lc==-1:
-        LE = "-\infty"
-        RE = "-\infty"
+        LE = r"-\infty"
+        RE = r"-\infty"
     if a==4  and lc==1 or a==6 and lc==1:
-        LE = "\infty"
-        RE = "\infty"
+        LE = r"\infty"
+        RE = r"\infty"
     if a==5  and lc==-1 or a==7 and lc==-1:
-        LE = "\infty"
-        RE = "-\infty"
+        LE = r"\infty"
+        RE = r"-\infty"
 
     return {
         "poly":poly,

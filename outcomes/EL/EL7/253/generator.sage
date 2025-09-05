@@ -14,7 +14,7 @@ class Generator(BaseGenerator):
       scenario_params={"APR": Decimal(str(APR)).normalize(), 
                        "compounding": compounding,
                        "amount": amount,
-                       "f": f"A({variable})=P\\left(1+\dfrac{{r}}{{n}}\\right)^{{ n{variable} }}",
+                       "f": f"A({variable})=P\\left(1+\\dfrac{{r}}{{n}}\\right)^{{ n{variable} }}",
                        "var": variable,
                        "account": choice(["savings account", "529 college savings account", "certificate of deposit"]),
                       }
