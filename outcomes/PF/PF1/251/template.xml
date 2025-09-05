@@ -19,7 +19,7 @@
             <p><m>{\large Answer}</m></p>
             <p>
                 <image
-                    source = "..assets/PF1-251/generated/{{__seed__}}/Show1.png"
+                    source = "../assets/PF1-251/generated/{{__seed__}}/Show1.png"
                     description = "a graph of one period of $y = {{f}}(x)$"
                 />
             </p>
@@ -57,7 +57,7 @@
                 <p><m>{\large Answer}</m></p>
             <p>
                     <image
-                        source = "..assets/PF1-251/generated/{{__seed__}}/Show2.png"
+                        source = "../assets/PF1-251/generated/{{__seed__}}/Show2.png"
                         description = "a graph of one period of $y = {{g(x)}}$"
                     /></p>
             </outtro>

@@ -1,5 +1,5 @@
 class Generator(BaseGenerator):
-  def data(self):
+    def data(self):
         x,t = var('x,t')
         L1 = [i*pi/6 for i in range(13)];
         L2 = [(2*j+1)*pi/4 for j in range(4)];
@@ -67,12 +67,12 @@ class Generator(BaseGenerator):
             "eval4": round( w(omega*t_star^p) ,4),
         }
 
-   # @provide_data
-   # def graphics(data):
+    @provide_data
+    def graphics(data):
 
-     #   return {
-           # "Show1": plot(data["f"](x),(x,0,2*pi),ticks=[pi/6,1/2], pointsize=20,color="blue"),
-           # "Show1": plot(data["f"](x),(x,0,2*pi),ticks=[pi/6,1/2], tick_formatter=[pi,1/2])+points([(t,data["f"](t)) for t in data["pts"]],pointsize=20,color="blue"),
-           # "Show2": plot(data["A"]*data["f"](data["arg"]),(x,data["xstart"],data["xend"]),ticks=[data["tickmarks"],None]),
-           # "Show2": plot(data["A"]*data["f"](data["arg"]),(x,data["xstart"],data["xend"]),ticks=[data["tickmarks"],None],tick_formatter=pi)
-     #   }
+        return {
+            #"Show1": plot(data["f"](x),(x,0,2*pi),ticks=[pi/6,1/2], color="blue"),
+            "Show1": plot(data["f"](x),(x,0,2*pi),ticks=[pi/6,1/2], tick_formatter=[pi,SR(1)])+points([(t,data["f"](t)) for t in data["pts"]],color="blue"),
+            #"Show2": plot(data["A"]*data["f"](data["arg"]),(x,data["xstart"],data["xend"]),ticks=[data["tickmarks"],None]),
+            "Show2": plot(data["A"]*data["f"](data["arg"]),(x,data["xstart"],data["xend"]),ticks=[data["tickmarks"],None],tick_formatter=pi)
+        }
