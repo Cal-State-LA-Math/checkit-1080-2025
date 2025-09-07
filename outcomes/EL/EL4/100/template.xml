@@ -50,7 +50,7 @@
             <p><m>{\large Answer}</m></p>
             <p>
                 <image
-                    source="../assets/EL4-100/generated/{{__seed__}}/plot.png"
+                    source="assets/EL4-100/generated/{{__seed__}}/plot.png"
                     description="Plot"/>
             </p> 
         </outtro>

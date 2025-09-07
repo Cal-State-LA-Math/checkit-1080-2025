@@ -12,7 +12,7 @@
                     <content>
                     <p>
                     <image
-                        source="../assets/FN1-251/generated/{{__seed__}}/mapping.png"
+                        source="assets/FN1-251/generated/{{__seed__}}/mapping.png"
                         description="Mapping"/>
                     </p>
                     </content>

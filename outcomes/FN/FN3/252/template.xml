@@ -18,7 +18,7 @@
         <outtro>
             <p><m>{\large Answer}</m></p>
             <p>Answers will vary. Here is one example of such a graph.</p>
-            <p><image source="../assets/FN3-100/generated/{{__seed__}}/graph1.png" 
+            <p><image source="assets/FN3-100/generated/{{__seed__}}/graph1.png" 
                 description="An example of a graph meeting the criteria"/></p>
             
         </outtro>

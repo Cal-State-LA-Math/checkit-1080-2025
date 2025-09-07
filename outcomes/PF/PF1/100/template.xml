@@ -42,7 +42,7 @@
                 <item><p>the period of <m>g</m> is <m>{{T}}</m>.</p></item>
                 <item><p>
                     <image
-                        source = "../assets/PF1-100/generated/{{__seed__}}/Show2.png"
+                        source = "assets/PF1-100/generated/{{__seed__}}/Show2.png"
                         description = "a graph of one period of $y = {{g(x)}}$"
                     /></p></item>
             </list>

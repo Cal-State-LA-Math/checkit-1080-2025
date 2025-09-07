@@ -37,7 +37,7 @@
         <outtro>
             <p><m>{\large Answer}</m></p>
             <p><image
-                source="../assets/TR1-101/generated/{{__seed__}}/Show.png"
+                source="assets/TR1-101/generated/{{__seed__}}/Show.png"
                 description="a red unit circle with the coterminal and reference angles in blue and purple, respectively"
               />
         </p>

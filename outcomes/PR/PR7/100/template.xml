@@ -7,7 +7,7 @@
         <p>
             The graph <m>y=f(x)</m> is shown below (graph may not be to scale). 
         </p>
-         <p><image source="../assets/PR7-100/generated/{{__seed__}}/polynomial.png" 
+         <p><image source="assets/PR7-100/generated/{{__seed__}}/polynomial.png" 
                    description="Graph of the polynomial f(x)"/></p>
         
     </intro>

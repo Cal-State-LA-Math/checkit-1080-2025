@@ -30,7 +30,7 @@
                     <!-- include two integer points so it's clear what the lines goes through like in activity 3.2.8, fractional slope fine   -->
                 </p>
                 <p> <image
-                    source="../assets/LF2-100/generated/{{__seed__}}/plot.png"
+                    source="assets/LF2-100/generated/{{__seed__}}/plot.png"
                     description="Plot"/>
                 </p>
             </content>

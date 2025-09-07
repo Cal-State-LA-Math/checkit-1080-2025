@@ -38,7 +38,7 @@
                 <!--{{#graph_task}}-->
                 <p>The line graphed below.</p>
                 <p> <image
-                    source="../assets/LF1-100/generated/{{__seed__}}/plot.png"
+                    source="assets/LF1-100/generated/{{__seed__}}/plot.png"
                     description="Plot"/>
             </p>
                 <!--{{/graph_task}}-->
