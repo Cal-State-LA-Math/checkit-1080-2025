@@ -98,7 +98,6 @@ class Generator(BaseGenerator):
         k = data['k']
         root = data['type']
         
-        
         f2 = f(r2)
         f1 = f(r1)
     # updated by clontz
