@@ -78,7 +78,7 @@
             <content>
                 <p>
                     <image
-                        source="../assets/FN1-251/generated/{{__seed__}}/{{plot}}.png"
+                        source="assets/FN1-251/generated/{{__seed__}}/{{plot}}.png"
                         description="Plot"/>
                 </p>
             </content>
