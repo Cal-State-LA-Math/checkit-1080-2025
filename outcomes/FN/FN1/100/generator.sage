@@ -110,7 +110,6 @@ class Generator(BaseGenerator):
         shuffle(xranges)
         q.append(plot(choice([-1,1])*x^2+choice([-3..3])*x,xranges[0],thickness=2)+plot(choice([-3..3])*x+choice([-3..3]),xranges[1],thickness=2))
 
-
     return {
           "mapping": plot(p),
           "plot0": plot(q[0]),
