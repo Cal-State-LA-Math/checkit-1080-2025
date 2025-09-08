@@ -1,4 +1,5 @@
 class Generator(BaseGenerator):
+    load("TBIL-library.sage")
     def data(self):
         x,t = var('x,t')
         L1 = [i*pi/2 for i in range(5)];
