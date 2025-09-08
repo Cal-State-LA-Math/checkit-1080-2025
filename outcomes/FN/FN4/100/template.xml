@@ -43,7 +43,7 @@
             <p><m>{\large Answer}</m></p>
             <p>
                 <image
-                        source="../assets/FN4-100/generated/{{__seed__}}/plot2.png"
+                        source="assets/FN4-100/generated/{{__seed__}}/plot2.png"
                         description="Transformed graph"/>
             </p>
         </outtro>
