@@ -87,8 +87,7 @@ class Generator(BaseGenerator):
             
         }
         
-        
-            
+                  
     @provide_data
     def graphics(data):
         scene = data['scene']
