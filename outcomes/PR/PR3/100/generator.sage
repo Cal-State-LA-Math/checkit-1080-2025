@@ -48,8 +48,7 @@ class Generator(BaseGenerator):
             "name1":name1,
             "height":ceil(height),
         }
-        
-        
+            
             
     @provide_data
     def graphics(data):
