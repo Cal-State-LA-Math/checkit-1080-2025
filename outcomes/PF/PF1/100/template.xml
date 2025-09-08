@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
-    <!-- <knowl>
+        <!-- <knowl>
         <content>
             <p>By hand, and on paper, sketch the graph of the function <m>y = {{f}}(x)</m> 
             on the period <m>[0,2\pi]</m>. On your graph, plot the points
@@ -43,12 +43,12 @@
                 <item><p>
                     <image
                         source = "assets/PF1-100/generated/{{__seed__}}/Show2.png"
-                        description = "a graph of one period of $y = {{g(x)}}$"
+                        description = "a graph of one period of $y = {{g}}(x)$"
                     /></p></item>
             </list>
         </outtro>
     </knowl>
-   <!-- <knowl>
+       <!-- <knowl>
         <content>
             <list>
             <item><p>Write out (in words!) a sequence of steps 

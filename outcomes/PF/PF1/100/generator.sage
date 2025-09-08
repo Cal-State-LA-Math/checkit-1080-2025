@@ -12,7 +12,6 @@ class Generator(BaseGenerator):
         #task2 stuff
         A = randrange(2,15)*choice([-1,1]);
         
-
         option = choice(["phase_shift","period_change"]);
         if option == "phase_shift":
             phase = choice([pi/6,pi/4,pi/3,pi/2])*choice([-2,-1,1,2]);
