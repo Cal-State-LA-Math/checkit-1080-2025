@@ -13,7 +13,7 @@
             <p><m>{\large Answer}</m></p>
            <p>
                 <image
-                    source = "../assets/TR1-100/generated/{{__seed__}}/Show1.png"
+                    source = "assets/TR1-100/generated/{{__seed__}}/Show1.png"
                     description = "The given first-quadrant angle"
                 />
             </p>

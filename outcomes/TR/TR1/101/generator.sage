@@ -127,6 +127,7 @@ class Generator(BaseGenerator):
             "ref_x": reference_point[0],
             "ref_y": reference_point[1],
         }
+     
         
     @provide_data
     def graphics(data):
