@@ -1,3 +1,4 @@
+load("TBIL-library.sage")
 class Generator(BaseGenerator):
   def data(self):
     x=var('x')
