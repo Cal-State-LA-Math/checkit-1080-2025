@@ -41,6 +41,7 @@ class Generator(BaseGenerator):
             "trig_a":trig_a,
         }
     
+    
     @provide_data
     def graphics(data):
 
