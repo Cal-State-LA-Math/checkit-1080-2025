@@ -134,6 +134,7 @@ class Generator(BaseGenerator):
             "faketicks": faketicks,
         }
     
+    
     @provide_data
     def graphics(data):
     # updated by clontz
