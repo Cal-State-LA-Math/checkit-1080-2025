@@ -50,7 +50,6 @@ class Generator(BaseGenerator):
 
     @provide_data
     def graphics(data):
-
         return {
            "Show1": plot(data["f"](x),(x,0,2*pi),ticks=[pi/2,1/2], tick_formatter=[pi,SR(1)])+points([(t,data["f"](t)) for t in data["pts"]],pointsize=20,color="blue"),
            "Show2": plot(data["A"]*data["f"](data["arg"]),(x,data["xstart"],data["xend"]),ticks=[data["tickmarks"],None],tick_formatter=pi)
