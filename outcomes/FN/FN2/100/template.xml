@@ -25,7 +25,7 @@
         <intro>
             <p> Let <m>{{gname}}(x)</m> be the function graphed below.</p>
                <p> <image
-                    source="../assets/FN2-100/generated/{{__seed__}}/plot.png"
+                    source="assets/FN2-100/generated/{{__seed__}}/plot.png"
                     description="Plot"/>
             </p>
         </intro>

@@ -94,7 +94,6 @@ class Generator(BaseGenerator):
                 xvalues.add(round(s,1))
 
 
-
     return {
       "fname": fname,
       "f":flatex,
